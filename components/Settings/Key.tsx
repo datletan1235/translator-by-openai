@@ -64,7 +64,7 @@ export const Key: FC<Props> = ({ apiKey, onApiKeyChange }) => {
           onClick={(e) => {
             e.stopPropagation();
             setIsChanging(false);
-            setNewKey(apiKey);
+            setNewKey('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');
           }}
         />
       </div>
